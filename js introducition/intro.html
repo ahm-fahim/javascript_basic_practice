@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="header">Java Script</h1>
+
+    <h2>What can javaScript Do?</h2>
+    <p>
+      JavaScript can change HTML attribute values. In this case javaScript can
+      changes the value of the src(source) attribute of an image.
+    </p>
+
+    <button
+      onclick="document.getElementById('light').src='../images/light-1.png'"
+    >
+      Turn on the light
+    </button>
+
+    <img
+      id="light"
+      src="../images/light-1.png"
+      style="width: 100px; height: 150px"
+    />
+
+    <button
+      onclick="document.getElementById('light').src='../images/light-2.jpg'"
+    >
+      Turn on the light
+    </button>
+
+    <!--  -->
+
+    <p id="demo1">JavaScript can change the style of an HTML element.</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo1').style.fontSize='30px'"
+    >
+      Click Me!
+    </button>
+
+    <!--  -->
+
+    <p id="demo2">JavaScript can hide HTML elements.</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo2').style.display='none'"
+    >
+      Click Me!
+    </button>
+
+    <!--  -->
+    <p>JavaScript can show hidden HTML elements.</p>
+
+    <p id="demo3" style="display: none">Hello JavaScript!</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo3').style.display='block'"
+    >
+      Click Me!
+    </button>
+
+    <!-- js link -->
+    <script src="./intro.js"></script>
+  </body>
+</html>
