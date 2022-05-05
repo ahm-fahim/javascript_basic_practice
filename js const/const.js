@@ -35,3 +35,27 @@ console.log(FullName)
 
 
 //const object 
+
+const car = {type:"Fiat", model:"500",color:"white"};
+car.color = "red";
+
+car.owner ="Johnson";
+console.log(car);
+
+// But you can NOT reassign the object:
+
+// Example
+// const car = {type:"Fiat", model:"500", color:"white"};
+
+// car = {type:"Volvo", model:"EX60", color:"red"};    // ERROR
+
+
+// const x = 2;       // Allowed
+
+// {
+//   const x = 3;   // Allowed
+// }
+
+// {
+//   const x = 4;   // Allowed
+// }
