@@ -29,3 +29,7 @@ let num4 = 4;
 console.log(Math.pow(num3, num4));
 
 /* Multiplication (*) and division (/) have higher precedence than addition (+) and subtraction (-). */
+
+let num5 = 5, num6 = 2;
+let calcu = num5 % num6;
+console.log(calcu);
