@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <button id="getEventBtn" onclick="document.getElementById('getEventValue').innerHTML = Date()">Get Time</button>
+    <h1 id="getEventValue"></h1>
+
+    <button onclick="this.innerHTML = Date()">GET TIME AGAIN</button>
+    
+    <!-- function 1 -->
+    <button onclick="displayDate()">Display Date Time</button>
+    <h3 id="displayDateTime"></h3>
+
+    <!-- javaScript -->
+    <script src="./event.js"></script>
+</body>
+</html>
